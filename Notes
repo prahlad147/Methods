@@ -55,23 +55,122 @@ Methods         Description                                                     
 
 Methods of ArrayList Class:
 
-In previous section, we have learned about the add(), get(), set(), and remove()
-method of the ArrayList class.
-Besides those basic methods, here are some more ArrayList methods that are 
-commonly used.
-Methods Descriptions
-size() Returns the length of the arraylist.
-sort() Sort the arraylist elements.
-clone() Creates a new arraylist with the same element, size, and capacity.
-contains() Searches the arraylist for the specified element and returns a 
-boolean result.
-ensureCapacity() Specifies the total element the arraylist can contain.
-isEmpty() Checks if the arraylist is empty.
-indexOf() Searches a specified element in an arraylist and returns the index 
-of the element.
+In previous section, we have learned about the add(), get(), set(), and remove() method of the ArrayList class.
+
+Besides those basic methods, here are some more ArrayList methods that are commonly used.
 
 
 
+Methods            Descriptions
+add()              add an elements to a list
+get()              access an elements from a list
+set()              To change elementsof the arraylist
+remove()           To remove an elements from the arraylist.
+size()             Returns the length of the arraylist.
+sort()             Sort the arraylist elements.
+clone()            Creates a new arraylist with the same element, size, and capacity.
+contains()         Searches the arraylist for the specified element and returns a boolean result.
+ensureCapacity()   Specifies the total element the arraylist can contain.
+isEmpty()          Checks if the arraylist is empty.
+indexOf()          Searches a specified element in an arraylist and returns the index of the element.
+asList()           Converts the array into an arraylist.
+toString()         Converts the wholearraylist to single string.
+
+
+
+
+
+Methods of Stack Class:
+
+Methods                  Description
+empty()                  It returns true if nothing is on the top of the stack. Else, returns false.
+peek()                   Returns the element on the top of the stack, but does not remove it.
+pop()                    Removes and returns the top element of the stack. An ‘EmptyStackException’ An exception is thrown if we call pop() when the invoking stack is empty.
+push(Object element)     Pushes an element on the top of the stack.
+search(Object element)   It determines whether an object exists in the stack. If the element is found, It returns the position of the element from the top of the stack. Else, it returns -1.
+
+
+
+
+Methods of Queue:
+
+-> The Queue interface includes all the methods of the Collection interface. 
+-> It is because Collection is the super interface of Queue.
+
+
+Some of the commonly used methods of the Queue interface are:
+
+Methods         Description
+• add() -       Inserts the specified element into the queue. If the task is successful, add() returns true, if not it throws an exception.
+• offer() -     Inserts the specified element into the queue. If the task is successful, offer() returns true, if not it returns false.
+• element() -   Returns the head of the queue. Throws an exception if the queue is empty.
+• peek() -      Returns the head of the queue. Returns null if the queue is empty.
+• remove() -    Returns and removes the head of the queue. Throws an exception if the queue is empty.
+• poll() -      Returns and removes the head of the queue. Returns null if the queue is empty.
+
+
+
+
+
+
+Methods for Java LinkedList:
+
+Method	                                   Description
+add(int index, E element)	                This method Inserts the specified element at the specified position in this list.
+add(E e)	                                 This method Appends the specified element to the end of this list.
+addAll(int index, Collection<E> c)	       This method Inserts all of the elements in the specified collection into this list, starting at the specified position.
+addAll(Collection<E> c)	                  This method Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection’s iterator.
+addFirst(E e)	                            This method Inserts the specified element at the beginning of this list.
+addLast(E e)	                             This method Appends the specified element to the end of this list.
+clear()	                                  This method removes all of the elements from this list.
+clone()	                                  This method returns a shallow copy of this LinkedList.
+contains(Object o)	                       This method returns true if this list contains the specified element.
+descendingIterator()	                     This method returns an iterator over the elements in this deque in reverse sequential order.
+element()	                                This method retrieves but does not remove, the head (first element) of this list.
+get(int index)	                           This method returns the element at the specified position in this list.
+getFirst()	                               This method returns the first element in this list.
+getLast()	                                This method returns the last element in this list.
+indexOf(Object o)	                        This method returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
+lastIndexOf(Object o)	                    This method returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
+listIterator(int index)	                  This method returns a list-iterator of the elements in this list (in proper sequence), starting at the specified position in the list.
+offer(E e)	                               This method Adds the specified element as the tail (last element) of this list.
+offerFirst(E e)	                          This method Inserts the specified element at the front of this list.
+offerLast(E e)	                           This method Inserts the specified element at the end of this list.
+peek()	                                   This method retrieves but does not remove, the head (first element) of this list.
+peekFirst()                              	This method retrieves, but does not remove, the first element of this list, or returns null if this list is empty.
+peekLast()	                               This method retrieves, but does not remove, the last element of this list, or returns null if this list is empty.
+poll()	                                   This method retrieves and removes the head (first element) of this list.
+pollFirst()	                              This method retrieves and removes the first element of this list, or returns null if this list is empty.
+pollLast()	                               This method retrieves and removes the last element of this list, or returns null if this list is empty.
+pop()	                                    This method Pops an element from the stack represented by this list.
+push(E e)	                                This method pushes an element onto the stack represented by this list.
+remove()	                                 This method retrieves and removes the head (first element) of this list.
+remove(int index)	                        This method removes the element at the specified position in this list.
+remove(Object o)	                         This method removes the first occurrence of the specified element from this list if it is present.
+removeFirst()	                            This method removes and returns the first element from this list.
+removeFirstOccurrence(Object o)          	This method removes the first occurrence of the specified element in this list (when traversing the list from head to tail).
+removeLast()	                             This method removes and returns the last element from this list.
+removeLastOccurrence(Object o)	           This method removes the last occurrence of the specified element in this list (when traversing the list from head to tail).
+set(int index, E element)	                This method replaces the element at the specified position in this list with the specified element.
+size()	                                   This method returns the number of elements in this list.
+spliterator()	                            This method creates a late-binding and fail-fast Spliterator over the elements in this list.
+toArray()	                                This method returns an array containing all of the elements in this list in proper sequence (from first to last element).
+toArray(T[] a)	                           This method returns an array containing all of the elements in this list in proper sequence (from first to last element); the runtime type of the returned array is that of the specified array.
+toString()	                               This method returns a string containing all of the elements in this list in proper sequence (from first to the last element), each element is separated by commas and the String is enclosed in square brackets.
+
+
+
+
+Tree Methods:
+
+Method                        Description
+children()                    Returns the children of the receiver as an Enumeration.
+getAllowsChildren()           Returns true if the receiver allows children.
+getChildAt(int childIndex)    Returns the child TreeNode at index childIndex.
+getChildCount()               Returns the number of children TreeNodes the receiver contains.
+getIndex(TreeNode node)       Returns the index of node in the receivers children.
+getParent()                   Returns the parent TreeNode of the receiver.
+isLeaf()                      Returns true if the receiver is a leaf.
 
 
 
