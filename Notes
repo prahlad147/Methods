@@ -1,0 +1,90 @@
+Methods of Java String:
+
+Besides those mentioned above, there are various string methods present in Java. 
+
+Here are some of those methods:
+ 
+Methods           Description                                                                                   Examples
+length()          returns the length of the string                                                              str.length();
+concat()          join two strings                                                                              str1.concat(str2);
+equals()          compare two strings                                                                           str1.equals(str2);
+substring()       returns the substring of the string                                                           str.substring(i,j);
+replace()         replaces the specified old character with the specified new character                         str.(o,e);
+charAt()          returns the character present in the specified location                                       str.charAt(i);
+getBytes()        converts the string to an array of bytes                                                      str.getBytes();
+indexOf()         returns the position of the specified character in the string                                 str.indexOf(c);
+compareTo()       compares two strings in the dictionary order                                                  
+trim()            removes any leading and trailing whitespaces
+format()          returns a formatted string
+split()           breaks the string into an array of strings
+toLowerCase()     converts the string to lowercase                                                              str.toLowerCase();
+toUpperCase()     converts the string to uppercase                                                              str.toUpperCase();
+valueOf()         returns the string representation of the specified argument                             
+toCharArray()     converts the string to a char array                                                           str.toCharArray();
+
+
+
+
+
+
+Methods of List:
+
+The List interface includes all the methods of the Collection interface. Its because Collection is a super interface of List.
+
+
+Some of the commonly used methods of the Collection interface that's also available in the List interface are:
+
+Methods         Description                                                                                      Examples
+• add() -       adds an element to a list                                                                        list.add(i);       
+• addAll() -    adds all elements of one list to another                                                         list1.addAll(list2);
+• get() -       helps to randomly access elements from lists                                                     list.get(i);
+• iterator() -  returns iterator object that can be used to sequentially access elements of lists                list.iterator():
+• set() -       changes elements of lists                                                                        list.set(i, element);
+• remove() -    removes an element from the list                                                                 list.remove(c);
+• removeAll() - removes all the elements from the list                                                           list.removeAll();
+• clear() -     removes all the elements from the list (more efficient than removeAll())                         list.clear();   
+• size() -      returns the length of lists                                                                      list.size();
+• toArray() -   converts a list into an array                                                                    list.toArray();
+• contains() -  returns true if a list contains specified element                                                list.contains(i);
+
+
+
+
+
+
+
+Methods of ArrayList Class:
+
+In previous section, we have learned about the add(), get(), set(), and remove()
+method of the ArrayList class.
+Besides those basic methods, here are some more ArrayList methods that are 
+commonly used.
+Methods Descriptions
+size() Returns the length of the arraylist.
+sort() Sort the arraylist elements.
+clone() Creates a new arraylist with the same element, size, and capacity.
+contains() Searches the arraylist for the specified element and returns a 
+boolean result.
+ensureCapacity() Specifies the total element the arraylist can contain.
+isEmpty() Checks if the arraylist is empty.
+indexOf() Searches a specified element in an arraylist and returns the index 
+of the element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
